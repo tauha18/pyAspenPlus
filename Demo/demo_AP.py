@@ -2,8 +2,9 @@ import pyAspenPlus
 import os
 import time
 
-path = os.path.join(os.path.abspath('.'), "TestFile", "DistillationColumn.apw")
+path = os.path.join(os.path.abspath('.'), "Test_File", "DistillationColumn.apw")
 # path = r'D:\Google Cloud\沈孝錚\Aspen\AllylAlcohol Dehydration\Ally Alcohol Dehydration by ED with EG.apw'
+#%%
 Aspen = pyAspenPlus.AP(path)
 obj = Aspen.aspen.Tree.FindNode("\Data\Streams\B1\Output\TOT_FLOW")
 
@@ -64,5 +65,5 @@ def heater_test():
     print(Aspen.Heater.getQ('c4-con'))
     print(Aspen.Heater.getQ('c4-con', get_unit=True, unit_change_to=1))
 
-
+stream_function()
 Aspen.Close()

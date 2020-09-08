@@ -1,0 +1,10 @@
+SLAVE:
+INPUT: _1437noy.inm
+MODNAME: apmain
+RUNID: _1437noy
+NEW_RUNID: _1437noy
+OLD_RUNID: _1437noy
+PDF: _1437noy.appdf
+USERNAME: Mohammed
+XMOD: C:\Program Files\AspenTech\Aspen Plus V11.0\Engine\xeq\apmain
+SPONLY:
